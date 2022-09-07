@@ -140,6 +140,9 @@ class StrangerThings extends React.Component {
               Página atual:
               {page}
             </p>
+            <p>
+              { development === 'true' ? 'Em desenvolvimento' : ''}
+            </p>
           </div>
           <div>
             <button type="button" onClick={ this.previousPage }>Anterior</button>
